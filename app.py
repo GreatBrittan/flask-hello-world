@@ -52,7 +52,7 @@ def selection():
         ''')
     records = cur.fetchall()
     conn.close()
-    respone_string=""
+    response_string=""
     response_string+="<table>"
     for player in records:
         respone_string+="<tr>"
